@@ -1,8 +1,13 @@
 import React from 'react'
+import NavSubscribe from '../../components/navbar/NavSubscribe'
 
 const Home = () => {
     return (
-        <div>Home</div>
+        <div>
+            <NavSubscribe />
+
+            Home Page
+        </div>
     )
 }
 
