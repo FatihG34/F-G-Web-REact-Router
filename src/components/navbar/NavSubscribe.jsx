@@ -7,7 +7,7 @@ const NavSubscribe = () => {
                 <h3 className="navbar-brand text-white">Subscribe To Our Newsletter</h3>
                 <form className="d-flex">
                     <input className="form-control me-2" type="email" placeholder="Enter email..." aria-label="email" />
-                    <button className="btn btn-outline-success bg-warning text-white" type="submit">Subscribe</button>
+                    <button className="btn btn-outline-success bg-warning text-white">Subscribe</button>
                 </form>
             </div>
         </nav>
