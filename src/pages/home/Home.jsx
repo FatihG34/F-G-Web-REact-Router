@@ -1,41 +1,30 @@
 import React from 'react'
 import NavSubscribe from '../../components/navbar/NavSubscribe';
 import html from '../../assets/logo_html.png'
+import css from '../../assets/logo_css.png'
+import brush from '../../assets/logo_brush.png'
+import { useNavigate } from "react-router-dom";
 
 const Home = () => {
+    const navigate = useNavigate()
     return (
         <div>
             <NavSubscribe />
-            <div class="row row-cols-1 row-cols-md-2 g-4 m-2">
-                <div class="col">
-                    <div width={500} class="card">
-                        <img width={300} src={html} alt="" />
-
-                        <div class="card-body">
-                            <h5 class="card-title">HTML</h5>
-                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                        </div>
-                    </div>
+            <div className='row m-5'>
+                <div className='col col-md-12 col-lg-4' style={{ cursor: 'pointer' }} onClick={() => navigate('/html')}>
+                    <img src={html} alt="html" />
+                    <h5>HTML</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt cupiditate natus dolorum animi velit quos blanditiis eos, voluptatum quasi modi quaerat fuga assumenda itaque, eius facilis iusto, cum sint amet. Repellendus ducimus ipsa consequuntur autem nulla earum sit commodi velit tempore similique quas quae in facilis, dolores quo, praesentium quasi.</p>
                 </div>
-                <div class="col">
-                    <div class="card">
-                        <svg class="bd-placeholder-img card-img-top" width="100%" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Image cap" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image cap</text></svg>
-
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                        </div>
-                    </div>
+                <div className='col col-md-12 col-lg-4' style={{ cursor: 'pointer' }} onClick={() => navigate('/css')}>
+                    <img src={css} alt="css" />
+                    <h5>CSS</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt cupiditate natus dolorum animi velit quos blanditiis eos, voluptatum quasi modi quaerat fuga assumenda itaque, eius facilis iusto, cum sint amet. Repellendus ducimus ipsa consequuntur autem nulla earum sit commodi velit tempore similique quas quae in facilis, dolores quo, praesentium quasi.</p>
                 </div>
-                <div class="col">
-                    <div class="card">
-                        <svg class="bd-placeholder-img card-img-top" width="100%" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Image cap" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image cap</text></svg>
-
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                        </div>
-                    </div>
+                <div className='col col-md-12 col-lg-4' style={{ cursor: 'pointer' }} onClick={() => navigate('/brush')}>
+                    <img src={brush} alt="brush" />
+                    <h5>BRUSH</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt cupiditate natus dolorum animi velit quos blanditiis eos, voluptatum quasi modi quaerat fuga assumenda itaque, eius facilis iusto, cum sint amet. Repellendus ducimus ipsa consequuntur autem nulla earum sit commodi velit tempore similique quas quae in facilis, dolores quo, praesentium quasi.</p>
                 </div>
             </div>
         </div>
