@@ -5,19 +5,19 @@ const Services = () => {
     return (
         <div>
             <NavSubscribe />
-            <div className='row mt-2'>
+            <div className='row mt-1 mb-5'>
                 <div className='col-8 p-3'>
-                    <div className='text-start p-4 m-3' style={{ backgroundColor: 'lightgray' }}>
+                    <div className='text-start p-4 my-3' style={{ backgroundColor: 'lightgray' }}>
                         <h3>Website Design</h3>
                         <p>Web design refers to the design of websites that are displayed on the internet. It usually refers to the user experience aspects of website development rather than software development.</p>
                         <p>Pricing $1.000 - $3.000</p>
                     </div>
-                    <div className='text-start p-4 m-3' style={{ backgroundColor: 'lightgray' }}>
+                    <div className='text-start p-4 my-3' style={{ backgroundColor: 'lightgray' }}>
                         <h3>Website Maintenance</h3>
                         <p>Develops, designs and delivers web site structure for Internet/Intranet sites. Documents, tests, implements and maintains web pages and multimedia design using appropriate web publishing, editing and graphics applications.</p>
                         <p>Pricing $250 per month</p>
                     </div>
-                    <div className='text-start p-4 m-3' style={{ backgroundColor: 'lightgray' }}>
+                    <div className='text-start p-4 my-3' style={{ backgroundColor: 'lightgray' }}>
                         <h3>Website Hosting</h3>
                         <p>Web hosting is an online service that enables you to publish your website or web application on the internet. When you sign up for a web hosting service, you basically rent some space on a physical server where you can store all the files and data necessary for your website to work properly.</p>
                         <p>Pricing $25 per month</p>
