@@ -5,7 +5,7 @@ const Services = () => {
     return (
         <div>
             <NavSubscribe />
-            <div className='row mt-4'>
+            <div className='row mt-2'>
                 <div className='col-8 p-3'>
                     <div className='text-start p-4 m-3' style={{ backgroundColor: 'lightgray' }}>
                         <h3>Website Design</h3>
