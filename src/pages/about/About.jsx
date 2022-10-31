@@ -5,7 +5,7 @@ const About = () => {
     return (
         <div>
             <NavSubscribe />
-            <div className='row mt-4 text-start w-100'>
+            <div className='row mt-4 mb-5 text-start w-100'>
                 <div className='col-8 p-3'>
                     <h1 className='p-4 m-3'>About Us</h1>
                     <div className='text-start p-4 m-3' style={{ backgroundColor: 'lightgray' }}>
@@ -19,7 +19,7 @@ const About = () => {
                     <div class="'p-4 m-3">
                         {/* <!-- Video --> */}
                         <div class="embed-responsive embed-responsive-16by9 mb-4">
-                            <iframe width="800" height="400" class="embed-responsive-item" src="https://www.youtube.com/embed/Nn--GKhQLHQ" title="Student Spotlight | Sadullah | Full Stack Development Student" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <iframe width="800" height="400" class="embed-responsive-item mb-5" src="https://www.youtube.com/embed/Nn--GKhQLHQ" title="Student Spotlight | Sadullah | Full Stack Development Student" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         </div>
                     </div>
                 </div>
